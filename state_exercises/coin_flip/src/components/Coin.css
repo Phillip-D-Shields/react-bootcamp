@@ -1,0 +1,25 @@
+.coin {
+    height: 8rem;
+    width: 8rem;
+    margin: auto;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.fade {
+    animation: fade .25s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
