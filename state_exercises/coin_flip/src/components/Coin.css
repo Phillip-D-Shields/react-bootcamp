@@ -9,11 +9,9 @@
     justify-content: center;
     align-items: center;
     font-size: 5rem;
+    animation: fade .5s;
 }
 
-.fade {
-    animation: fade .25s;
-}
 
 @keyframes fade {
     from {

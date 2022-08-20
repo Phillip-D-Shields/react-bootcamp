@@ -1,0 +1,9 @@
+.boxDisplay {
+    /* height: 95vh; */
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
